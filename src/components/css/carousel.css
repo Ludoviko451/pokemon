@@ -1,0 +1,14 @@
+.carousel-container {
+    display: flex;
+    flex-direction: column; /* Ajusta la dirección para apilar en dispositivos pequeños */
+    align-items: center; /* Centra horizontalmente en dispositivos pequeños */
+
+    width: 60%; /* Utiliza el 100% del ancho del contenedor padre */
+    max-width: 600px;
+    height: 400px;
+    margin: auto;
+    background-color: gray;
+    object-fit: contain;
+  }
+  
+  /* Otros estilos que puedas necesitar */

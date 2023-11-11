@@ -1,9 +1,13 @@
 import React from 'react'
-
+import ImageCarousel from '../Carousel';
+import Pokemoninfo from '../Pokemoninfo';
+import Opening from '../Opening';
 export const indexpage = () => {
   return (
     <div>
-        <h1>INDEX</h1>
+      <Pokemoninfo></Pokemoninfo>
+      <ImageCarousel></ImageCarousel>
+      <Opening></Opening>
     </div>
   )
 }
