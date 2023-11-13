@@ -9,7 +9,7 @@ import Pokemon from './components/pages/Pokemon'; // Asegúrate de importar corr
 import Indexpage from './components/pages/Indexpage';
 import Items from './components/pages/Items';
 import general from './components/css/general.css'
-import FooterComponent from './components/Footer/FooterComponent';
+
 function App() {
   return (
     <div>
@@ -20,7 +20,7 @@ function App() {
           <Route path='/pokemon' element={<Pokemon />} />
           <Route path='/items' element={<Items />} />
         </Routes>
-        <FooterComponent></FooterComponent>
+
       </Router>
 
 
